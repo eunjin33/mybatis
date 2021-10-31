@@ -7,6 +7,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="css/menu.css">
+
 </head>
 <body>
 	<div align="center">

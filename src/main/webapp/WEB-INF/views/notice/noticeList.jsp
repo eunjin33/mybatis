@@ -47,12 +47,13 @@
 				</c:forEach>
 			</tbody>
 		</table>
+		<div>
+			<button type="button" onclick="location.href='noticeForm.do'">글쓰기</button>
+			&nbsp;&nbsp;&nbsp;
+			<button type="button" onclick="location.href='home.do'">홈</button>
+		</div>
 	</div>
-	<div>
-		<button type="button" onclick="location.href='noticeForm.do'">글쓰기</button>
-		&nbsp;&nbsp;&nbsp;
-		<button type="button" onclick="location.href='home.do'">홈</button>
-	</div>
+
 	<div>
 		<!-- 숨겨저 있는 폼 -->
 		<form id="frm" action="noticeSelect.do" method="post">

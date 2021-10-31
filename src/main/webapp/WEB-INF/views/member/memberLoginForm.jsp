@@ -17,14 +17,14 @@
 		<h2>로그인</h2>
 		<form id="frm" action="memberLogin.do" method="post">
 			<div class="mb-3 mt-3">
-				<label for="email">아 이 디:</label> <input type="text"
-					class="form-control" id="id" placeholder="아이디"
-					name="id">
+				<label for="id">아 이 디:</label> <input type="text"
+					class="form-control" id="id" placeholder="아이디를 입력해주세요"
+					name="id" style="width:300px;">
 			</div>
 			<div class="mb-3">
-				<label for="pwd">비밀번호:</label> <input type="password"
-					class="form-control" id="password" placeholder="Enter password"
-					name="password">
+				<label for="password">비밀번호:</label> <input type="password"
+					class="form-control" id="password" placeholder="비밀번호를 입력해주세요"
+					name="password" style="width:300px;">
 			</div>
 			<button type="submit" class="btn btn-primary">로그인</button>
 		</form>
